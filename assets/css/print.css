@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/*
+   Print Styles
+   Author: Sawyer Watts
+   Date: 20 August 2017
+
+   Filename: print.css
+   Supporting Files: N/A
+*/
+
+@page {
+    size: 8.5in 11in portrait;
+    margin: .5in;
+}
+
+
+/* Hide unneeded items */
+nav, #notnavgallerylink, #misc {
+    display: none;
+}
+
+/* make sure figures don't be broken up */
+figure {
+    display: block;
+    page-break-after: always;
+    page-break-inside: avoid;
+}
+
+figure:last-of-type {
+    page-break-after: avoid;
+}
+
+
+/* make anchors look like normal text */
+a {
+    color: black;
+    text-decoration: none;
+}

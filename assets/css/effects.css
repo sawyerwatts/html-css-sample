@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/*
+   Effects CSS
+   Author: Sawyer Watts
+   Date: 20 August 2017
+
+   Filename: effects.css
+   Supporting Files: N/A
+*/
+
+header, section, aside, #misc, footer {
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+
+    -moz-box-shadow: rgba(0, 0, 0, .6) 10px 10px 15px;
+    -webkit-box-shadow: rgba(0, 0, 0, .6) 10px 10px 15px;
+    box-shadow: rgba(0, 0, 0, .6) 10px 10px 15px;
+}

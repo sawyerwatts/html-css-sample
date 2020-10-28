@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+/*
+   Primary styles for site
+   Author: Sawyer Watts
+   Date: 20 August 2017
+
+   Filename: print.css
+   Supporting Files: N/A
+*/
+
+
+/* Body/General */
+body {
+    background-color: rgb(170, 200, 255);
+
+    width: 90%;
+    min-width: 800px;
+    max-width: 1700px;
+}
+
+header, section, footer, aside, #misc {
+    background-color: rgb(125, 186, 240);
+
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    margin-bottom: 13px;
+
+    -o-border: 3px solid white;
+    -moz-border: 3px solid white;
+    -webkit-border: 3px solid white;
+    border: 3px solid white;
+
+    -o-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+}
+
+img {
+    -o-border: 3px solid black;
+    -moz-border: 3px solid black;
+    -webkit-border: 3px solid black;
+    border: 3px solid black;
+}
+
+/* anchor styles */
+a {
+    color: rgb(175, 75, 225);
+}
+
+a:hover {
+    color: white;
+
+    -o-border-bottom: 1px solid white;
+    -moz-border-bottom: 1px solid white;
+    -webkit-border-bottom: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+/* Heading Styles */
+header {
+    width: 450px;
+
+    padding-bottom: 20px;
+    margin: 0px auto;
+    margin-bottom: 13px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#homeheader {
+    width: 630px !important;
+    padding-top: 25px !important;
+    padding-left: 0px !important;
+
+    -o-border: 3px solid white !important;
+    -moz-border: 3px solid white !important;
+    -webkit-border: 3px solid white !important;
+    border: 3px solid white !important;
+}
+
+
+/* section styles */
+section {
+    width: 50%;
+    min-width: 400px;
+    max-width: 850px;
+
+    margin-left: 5%;
+
+    float: left;
+}
+
+#gallerysection {
+    width: 80%;
+    min-width: 640px;
+    max-width: 1360px;
+
+    padding-top: 15px;
+    padding-bottom: 30px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#gallerysection article ul li {
+    margin-left: 0px;
+    margin-right: 25px;
+
+    float: left;
+
+    list-style: none;
+}
+
+#gallerysection article ul li figure {
+    margin-left: 0px;
+}
+
+
+/* Nav Styles */
+nav ul li {
+    margin-bottom: 5px;
+
+    list-style-type: none;
+}
+
+
+/* Aside styles */
+aside {
+    width: 30%;
+    min-width: 240px;
+    max-width: 510px;
+
+    padding-bottom: 25px;
+    padding-left: 30px;
+
+    float: right;
+}
+
+
+/* #misc styles */
+#misc {
+    width: 400px;
+
+    padding-top: 20px;
+    padding-bottom: 7px;
+    margin-right: auto;
+    margin-left: auto;
+
+    text-align: center;
+    clear: both;
+}
+
+
+/* Footer Styles */
+footer {
+    width: 200px;
+
+    padding: 0px 20px 0px 20px;
+    margin: 0px auto;
+
+    clear: both;
+}
+
+footer p {
+    padding-left: 0px;
+    padding-right: 0px;
+
+    text-align: center;
+}
